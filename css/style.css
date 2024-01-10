@@ -1,0 +1,25 @@
+header {
+  background-color: #1b4242;
+}
+
+header .h-title {
+  background-color: #092635;
+  height: 100vh;
+}
+
+header .first-layout h1 {
+  color: #9ec8b9;
+}
+
+header .q-user span {
+  color: #9ec8b9;
+}
+
+#successMsg {
+  border: 2px solid #1b4242;
+  border-radius: 5px;
+  color: #092635;
+  width: 15%;
+
+  margin: auto;
+}

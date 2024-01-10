@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -------------------------------- Title and icon -------------------------------- -->
+    <title>Login Discover world</title>
+    <link rel="icon" href="images/logo-color.png" />
+    <!-- -------------------------------- Title and icon -------------------------------- -->
+    <!-- -------------------------------- Css files -------------------------------- -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- -------------------------------- Css files -------------------------------- -->
+
+    <!-- -------------------------------- Login page -------------------------------- -->
+  </head>
+  <body>
+    <header class="py-4">
+      <div class="container pt-1 w-75">
+        <div class="row">
+          <div class="col-sm-12 h-title rounded">
+            <div class="first-layout mx-auto text-center">
+              <h1 class="py-3">Discover Your World</h1>
+              <div class="logInEmail pb-3">
+                <input
+                  id="logInEmailInput"
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="logInPassword pb-5">
+                <input
+                  id="logInPasswordInput"
+                  class="form-control"
+                  type="password"
+                  placeholder="Enter your password"
+                />
+              </div>
+
+              <div id="requiredMessage" class="alert alert-danger d-none">
+                All inputs is required!
+              </div>
+              <p id="eMsg" class="text-danger d-none">
+                Your email or password is incorect
+              </p>
+            </div>
+
+            <a
+              class="btn btn-outline-info w-100 mb-3 text-decoration-none"
+              id="loginBtn"
+              onclick="logIn()"
+              >Login</a
+            >
+
+            <div class="q-user text-center pt-3">
+              <span class="">
+                New here?
+                <a
+                  id="signUpLink"
+                  class="text-decoration-none"
+                  href="signup.html"
+                  >Signup</a
+                >
+                to make your own world!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- -------------------------------- Login page -------------------------------- -->
+
+    <!-- -------------------------------- JS files -------------------------------- -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- -------------------------------- JS files -------------------------------- -->
+  </body>
+</html>

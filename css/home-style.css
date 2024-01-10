@@ -1,0 +1,70 @@
+.nav-custom {
+  background-color: #9ec8b988;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+main {
+  background-color: #1b4242;
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+
+main .h-title {
+  background-color: #092635;
+  min-height: 100vh;
+}
+
+main .first-layout h1 {
+  color: #9ec8b9;
+}
+
+main .q-user span {
+  color: #9ec8b9;
+}
+
+.visit-intro {
+  color: #9ec8b9;
+  font-size: 20px;
+}
+
+.sticky {
+  color: #9ec8b9;
+  font-size: 20px;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+
+.note {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  resize: none;
+  font-size: 16px;
+}
+
+.add-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: background 0.2s;
+}
+
+.add-note:hover {
+  background: #9ec8b9;
+}

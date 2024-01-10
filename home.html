@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -------------------------------- Title and icon -------------------------------- -->
+    <title>Home Discover world</title>
+    <link rel="icon" href="images/logo-color.png">
+    <!-- -------------------------------- Title and icon -------------------------------- -->
+
+    <!-- -------------------------------- Css files -------------------------------- -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/home-style.css">
+    <!-- -------------------------------- Css files -------------------------------- -->
+
+    <!-- -------------------------------- Home page -------------------------------- -->
+</head>
+<body onload="displayUser()">
+
+    <!-- -------------------------------- Navbar -------------------------------- -->
+        <nav class="navbar navbar-expand-lg nav-custom ">
+          <div class="container">
+            <a class="navbar-brand" href="home.html">Discover World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-outline-danger text-dark " onclick="logout()" aria-current="page"
+                    href="index.html">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!-- -------------------------------- Navbar -------------------------------- -->
+
+    <!-- -------------------------------- Main -------------------------------- -->
+
+    <!-- -------------------------------- Title and Username -------------------------------- -->
+    <main class="py">
+      <div class="container pt-1 w-75">
+        <div class="row">
+          <div class="col-sm-12 h-title rounded">
+            <div class="first-layout mx-auto text-center">
+              <h1 class="py-3">Discover Your World</h1>
+              <h1 id="userName" class="text-info"></h1>
+    <!-- -------------------------------- Title and Username -------------------------------- -->
+
+    <!-- -------------------------------- Link to other website ! -------------------------------- -->
+              <div class="visit-intro">
+                <p> You can save your favorite links simply ! </p>
+              </div>
+              <div class="visit py-3">
+                <a class="" href="https://moataz-shalaby.github.io/Bookmarker/" target="_blank">
+                  <button class="btn btn-info w-100">
+                    <span>Visit</span>
+                  </button>
+                </a>
+    <!-- -------------------------------- Link to other website ! -------------------------------- -->
+
+    <!-- -------------------------------- Sticky-notes -------------------------------- -->
+    
+                <div class="sticky pt-5">
+                  <p> You can simply add, edit and remove a simple note ! </p>
+                </div>
+    
+              </div>
+              <div id="app">
+                <button class="add-note" type="button">+</button>
+              </div>
+    <!-- -------------------------------- Sticky-notes -------------------------------- -->
+            </div>
+          </div>
+        </div>
+    
+    </main>
+
+    <!-- -------------------------------- Main -------------------------------- -->
+
+    <!-- -------------------------------- Home page -------------------------------- -->
+
+
+
+
+
+    <!-- -------------------------------- JS files -------------------------------- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- -------------------------------- JS files -------------------------------- -->
+</body>
+</html>
